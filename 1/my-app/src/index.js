@@ -1,4 +1,5 @@
 import ReactDom from 'react-dom'
+import App from './App'
 
 function SearchBar(){
     return (
@@ -11,5 +12,6 @@ function SearchBar(){
 
 ReactDom.render (
     <SearchBar></SearchBar>,
+    <App></App>,
     document.getElementById('root')
 );
